@@ -12,7 +12,7 @@
 */
 use App\Facades\CacheGroup;
 Route::get('/', function () {
-    event(new \App\Events\FirstEvent("renchaohong测试自动构建"));
+    event(new \App\Events\FirstEvent("renchaohong测试自动构建1111"));
     return view('welcome');
 });
 
