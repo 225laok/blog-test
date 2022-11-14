@@ -16,7 +16,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("aa",function (){
+Route::get("/aa",function (){
     echo  cacheApp::driver('redis')->cache('redis');
     return cacheApp::driver('file')->cache('file');
 
